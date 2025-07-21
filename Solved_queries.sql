@@ -1,16 +1,4 @@
-SELECT COUNT(*) FROM spotify;
-
 SELECT * FROM spotify;
-
-SELECT COUNT(DISTINCT album) FROM spotify;
-
-SELECT DISTINCT album_type FROM spotify;
-
-SELECT * FROM spotify WHERE duration_min = 0;
-
-DELETE FROM spotify WHERE duration_min = 0;
-
-SELECT * FROM spotify WHERE duration_min = 0;
 
 ----------------------------------------------------------------------------------------------
 ------------------------------------- Easy Category ------------------------------------------
